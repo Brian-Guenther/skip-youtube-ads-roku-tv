@@ -9,7 +9,7 @@ Python script that skips youtube adds automatically when skip button appears on 
 - Install [python](https://www.python.org/downloads/)
 - Connect webcam and point at lower right of tv screen (where the skip button appears)
 - Find your TVs [IP addresss](https://www.lifewire.com/how-to-find-roku-ip-address-4174687) and set `ROKU_IP` env var.
-- `git clone && cd skip-youtube-ads-roku-tv`
+- `git clone https://github.com/Brian-Guenther/skip-youtube-ads-roku-tv.git && cd skip-youtube-ads-roku-tv`
 - `pip install -r requirements.txt`
 - `python skipAds.py`
 
