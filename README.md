@@ -11,7 +11,7 @@ Python script that skips youtube adds automatically when skip button appears on 
 - Find your TVs [IP addresss](https://www.lifewire.com/how-to-find-roku-ip-address-4174687) and set `ROKU_IP` env var.
 - `git clone https://github.com/Brian-Guenther/skip-youtube-ads-roku-tv.git && cd skip-youtube-ads-roku-tv`
 - `pip install -r requirements.txt`
-- `python skipAds.py`
+- `python skip_ads.py`
 
 # Troubleshooting
 - The image to text recognition works about 50-75% of the time depending on the camera quality and glare/shadows/angle/etc.
