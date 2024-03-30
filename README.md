@@ -20,5 +20,9 @@ Python script that skips youtube adds automatically when skip button appears on 
 - Move the camera around while SAVE_PIC is true and make sure you have the SKIP text clearly in frame with minimal blurriness/shadows
 - Depending on how many webcams you have connected you may need to change the index from 0 (`cap = cv2.VideoCapture(0)`)
 
+# Design
+![Diagram](./skip_ads_diagram.jpg)
+
+
 # References
 1. [Roku TV API](https://developer.roku.com/docs/developer-program/dev-tools/external-control-api.md)
