@@ -1,5 +1,4 @@
 pytesseract
 opencv-python
-logging
 requests
 black
