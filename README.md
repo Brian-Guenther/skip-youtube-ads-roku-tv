@@ -16,6 +16,8 @@ Python script that skips youtube adds automatically when skip button appears on 
 - `python skip_ads.py`
 
 # Troubleshooting
+- You may need to update your ROKU device to enable API access (Disabled by default in recent [firmware update](https://github.com/home-assistant/home-assistant.io/issues/36240))
+  - `"Settings > System > Advanced Settings > Control by mobile apps" to "Permissive"`
 - The image to text recognition works about 50-75% of the time depending on the camera quality and glare/shadows/angle/etc.
 - Set `SAVE_PIC` env var to `'true'` and the script will save the image to your execution dir as `captured_image.jpg`
 - Set the logger to debug to see what text is actually captured
